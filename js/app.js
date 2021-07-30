@@ -6,11 +6,11 @@ alert("ok we well play a nice game after you read my bigrapgy I'll ask you qusti
 
 let firstQ = prompt('Can i give you a health consltant session?').toLowerCase();
 switch(firstQ) {
-case 'yes':
+case 'yes':case 'y':
   //console.log('Absolutly thats one of the services i could afford it');
   alert('Absolutly thats one of the services i could afford it');
   break;
-case 'no':
+case 'no':case 'n':
   //console.log("Read the biography carfully");
   alert("Read the biography carfully")
   break;
@@ -21,11 +21,11 @@ default:
 }
 let SecQ = prompt('Can i write you a diet plan?') .toUpperCase()
 switch(SecQ) {
-case 'YES':
+case 'YES':case 'Y':
   //console.log('Thats one of my strong skills');
   alert('Thats one of my strong skills');
   break;
-case 'NO':
+case 'NO':case 'N':
   //console.log('the first words were i am a dietitian');
   alert('the first words were i am a dietitian')
   break;
@@ -36,11 +36,11 @@ default:
 }
 let ThirdQ = prompt("I've graduted from certified credentials Unevisity?").toLowerCase();
 switch(ThirdQ) {
-case 'yes':
+case 'yes':case 'y':
   //console.log("It's UOP(Unevisity Of Petra)");
   alert("It's UOP(Unevisity Of Petra)");
   break;
-case 'no':
+case 'no':case 'n':
   //console.log('You need to be more focused');
   alert('You need to be more focused')
   break;
@@ -51,11 +51,11 @@ default:
 }
 let FourthQ = prompt('My passion is in health awarness & media?') .toUpperCase()
 switch(FourthQ) {
-case 'YES':
+case 'YES':case 'Y':
   console.log('yes');
   alert('Thats why i am learned how to deal with social media platforms');
   break;
-case 'NO':
+case 'NO':case 'N':
   //console.log('I think you dont like the idea of reading');
   alert('I think you dont like the idea of reading')
   break;
@@ -66,11 +66,11 @@ default:
 }
 let FifthQ= prompt('Do you think i love sport?').toLowerCase();
 switch(FifthQ) {
-case 'yes':
+case 'yes':case 'y':
   //console.log('Kickboxing is my favorit one');
   alert("Kickboxing is my favorit one");
   break;
-case 'no':
+case 'no':case 'n':
   //console.log('You should answer it logically');
   alert('You should answer it logically')
   break;
