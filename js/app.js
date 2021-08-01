@@ -4,7 +4,9 @@ console.log(userName);
 alert("It's a pleasure to see you here" + userName)
 alert("ok we well play a nice game after you read my bigrapgy I'll ask you qustions to make sure your fully understanding who i am")
 
-let firstQ = prompt('Can i give you a health consltant session?').toLowerCase();
+function Q1() {
+  
+ let firstQ = prompt('Can i give you a health consltant session?').toLowerCase();
 switch (firstQ) {
   case 'yes': case 'y':
     //console.log('Absolutly thats one of the services i could afford it');
@@ -19,8 +21,9 @@ switch (firstQ) {
     //console.log('you can make a tour your in our web');
     alert("you can make a your in our web")
     break;
-}
+}}
 
+function Q2() {
 let SecQ = prompt('Can i write you a diet plan?').toUpperCase()
 switch (SecQ) {
   case 'YES': case 'Y':
@@ -36,7 +39,8 @@ switch (SecQ) {
     //console.log('you can make a your in our web');
     alert("you can make a your in our web")
     break;
-}
+}}
+function Q3() {
 let ThirdQ = prompt("I've graduted from certified credentials Unevisity?").toLowerCase();
 switch (ThirdQ) {
   case 'yes': case 'y':
@@ -52,7 +56,8 @@ switch (ThirdQ) {
     //console.log('you can make a your in our web');
     alert("you can make a your in our web")
     break;
-}
+}}
+function Q4() {
 let FourthQ = prompt('My passion is in health awarness & media?').toUpperCase()
 switch (FourthQ) {
   case 'YES': case 'Y':
@@ -68,7 +73,8 @@ switch (FourthQ) {
     //console.log('you can make a your in our web');
     alert("you can make a your in our web")
     break;
-}
+}}
+function Q5() {
 let FifthQ = prompt('Do you think i love sport?').toLowerCase();
 switch (FifthQ) {
   case 'yes': case 'y':
@@ -85,8 +91,8 @@ switch (FifthQ) {
     alert("you can make a your in our web")
     break;
 }
-alert("Since i had tell you a lot information about me with mentioning histories i think you can answer the next qustion")
-
+alert("Since i had tell you a lot information about me with mentioning histories i think you can answer the next qustion")}
+function Q6() {
 let SixthQ = prompt("How old i am?")
 let SQ = Number(SixthQ)
 let answer6 = 24;
@@ -101,8 +107,8 @@ for (var i = 0; i < 4; i++)
   else if (SQ > answer6) {
     SQ = parseInt(prompt('Too high, you have 4 attempts only'))
   }
-alert('I am 24 years old');
-
+alert('I am 24 years old');}
+function Q7() {
 let info = ['WHO', 'MOH', 'FAO', 'UNHR', 'NHCS', 'Academy of nutrition and dietetics', 'USDA', 'FDA'];
 for (let x = 0; x < 6; x++) {
   let guessinfo = prompt('What is the writer information source?');
@@ -113,6 +119,6 @@ for (let x = 0; x < 6; x++) {
   } else {
     alert("Review my following list again");
   }
-  alert('Youre score is ' + correct + '/7');}
+  alert('Youre score is ' + correct + '/7');}}
   let conf = confirm('Are you sure you want to make appointment');
   console.log(conf);
