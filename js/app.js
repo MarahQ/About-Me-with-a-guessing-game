@@ -22,6 +22,7 @@ switch (firstQ) {
     alert("you can make a your in our web")
     break;
 }}
+function Q1();
 
 function Q2() {
 let SecQ = prompt('Can i write you a diet plan?').toUpperCase()
@@ -40,6 +41,8 @@ switch (SecQ) {
     alert("you can make a your in our web")
     break;
 }}
+function Q2();
+
 function Q3() {
 let ThirdQ = prompt("I've graduted from certified credentials Unevisity?").toLowerCase();
 switch (ThirdQ) {
@@ -57,6 +60,8 @@ switch (ThirdQ) {
     alert("you can make a your in our web")
     break;
 }}
+function Q3();
+
 function Q4() {
 let FourthQ = prompt('My passion is in health awarness & media?').toUpperCase()
 switch (FourthQ) {
@@ -74,6 +79,8 @@ switch (FourthQ) {
     alert("you can make a your in our web")
     break;
 }}
+function Q4();
+
 function Q5() {
 let FifthQ = prompt('Do you think i love sport?').toLowerCase();
 switch (FifthQ) {
@@ -92,6 +99,8 @@ switch (FifthQ) {
     break;
 }
 alert("Since i had tell you a lot information about me with mentioning histories i think you can answer the next qustion")}
+function Q5();
+
 function Q6() {
 let SixthQ = prompt("How old i am?")
 let SQ = Number(SixthQ)
@@ -108,6 +117,8 @@ for (var i = 0; i < 4; i++)
     SQ = parseInt(prompt('Too high, you have 4 attempts only'))
   }
 alert('I am 24 years old');}
+function Q6();
+
 function Q7() {
 let info = ['WHO', 'MOH', 'FAO', 'UNHR', 'NHCS', 'Academy of nutrition and dietetics', 'USDA', 'FDA'];
 for (let x = 0; x < 6; x++) {
@@ -120,5 +131,6 @@ for (let x = 0; x < 6; x++) {
     alert("Review my following list again");
   }
   alert('Youre score is ' + correct + '/7');}}
+  function Q7();
   let conf = confirm('Are you sure you want to make appointment');
-  console.log(conf);
+  console.log(conf); 
