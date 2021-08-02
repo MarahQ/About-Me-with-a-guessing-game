@@ -1,5 +1,5 @@
 'use strict'
-/*let userName = prompt("Hey i am the web owner Marah and you?")
+let userName = prompt("Hey i am the web owner Marah and you?")
 console.log(userName);
 alert("It's a pleasure to see you here" + userName)
 alert("ok we well play a nice game after you read my bigrapgy I'll ask you qustions to make sure your fully understanding who i am")
@@ -15,7 +15,7 @@ function Q1() {
       break;
     case 'no': case 'n':
       //console.log("Read the biography carfully");
-      alert("Read the biography carfully")
+      alert('Read the biography carfully')
       break;
     default:
       //console.log('you can make a tour your in our web');
@@ -110,7 +110,7 @@ function Q6() {
   let SixthQ = prompt("How old i am?")
   let SQ = Number(SixthQ)
   let answer6 = 24;
- 
+
   for (var i = 0; i < 4; i++)
     if (SQ === answer6) {
       alert('Correct')
@@ -125,14 +125,14 @@ function Q6() {
     }
   alert('I am 24 years old');
 }
-Q6(); */
+Q6();
 
 function Q7() {
   let info = ['WHO', 'MOH', 'FAO', 'UNHR', 'NHCS', 'Academy of nutrition and dietetics', 'USDA', 'FDA'];
   for (let x = 0; x < 6; x++) {
     let guessinfo = prompt('What is the writer information source?');
     guessinfo = guessinfo.toUpperCase();
-    if (info[0]== guessinfo || info[1]== guessinfo ||info[2]== guessinfo || info[3]== guessinfo || info[4]== guessinfo || info[5]== guessinfo || info[6]== guessinfo || info[7]== guessinfo) {
+    if (info[0] == guessinfo || info[1] == guessinfo || info[2] == guessinfo || info[3] == guessinfo || info[4] == guessinfo || info[5] == guessinfo || info[6] == guessinfo || info[7] == guessinfo) {
       alert('You are correct!');
       correct++;
       break;
